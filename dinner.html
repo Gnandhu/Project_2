@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+    <header>
+        <div class="nav">
+             <a href="#" class="logo">
+         <ion-icon name="fast-food"></ion-icon>
+         Food Delight
+        </a>
+        <div class="box">
+            <div class="cart-count">0</div>
+            <ion-icon name="cart" id="cart-icon"></ion-icon>
+        </div>
+
+        <div class="cart">
+            <div class="card-title">Cart Items</div>
+            <div class="cart-content">      
+                <div class="cart-box">
+                    <img src="images/d5.jpg" class="cart-img">
+                    <div class="detail-box">
+                        <div class="card-food-title">Bread cut</div>
+                        <div class="price-box">
+                            <div class="card-price">rs.80</div>
+                            <div class="card-amt">rs.80</div>
+                        </div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div>
+                        <ion-icon name="trash" class="cart-remove"></ion-icon>
+                </div>
+                <div class="cart-box">
+                    <img src="images/d6.jpg" class="cart-img">
+                    <div class="detail-box">
+                        <div class="card-food-title">Carrot rice</div>
+                        <div class="price-box">
+                            <div class="card-price">rs.99</div>
+                            <div class="card-amt">rs.99</div>
+                        </div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div>
+                        <ion-icon name="trash" class="cart-remove"></ion-icon>
+                </div>
+                <div class="cart-box">
+                    <img src="images/d7.jpg" class="cart-img">
+                    <div class="detail-box">
+                        <div class="card-food-title">Egg chop</div>
+                        <div class="price-box">
+                            <div class="card-price">rs.94</div>
+                            <div class="card-amt">rs.94</div>
+                        </div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div>
+                        <ion-icon name="trash" class="cart-remove"></ion-icon>
+                </div>
+                <div class="cart-box">
+                    <img src="images/d3.jpg" class="cart-img">
+                    <div class="detail-box">
+                        <div class="card-food-title">Potato Crisp</div>
+                        <div class="price-box">
+                            <div class="card-price">rs.45</div>
+                            <div class="card-amt">rs.45</div>
+                        </div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div>
+                        <ion-icon name="trash" class="cart-remove"></ion-icon>
+                </div>
+                <div class="cart-box">
+                    <img src="images/d8.jpg" class="cart-img">
+                    <div class="detail-box">
+                        <div class="card-food-title">Chiken chop</div>
+                        <div class="price-box">
+                            <div class="card-price">rs.80</div>
+                            <div class="card-amt">rs.80</div>
+                        </div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div>
+                        <ion-icon name="trash" class="cart-remove"></ion-icon>
+                </div>
+                <div class="cart-box">
+                    <img src="images/d11.jpg" class="cart-img">
+                    <div class="detail-box">
+                        <div class="card-food-title">KL Sadhya</div>
+                        <div class="price-box">
+                            <div class="card-price">rs.59</div>
+                            <div class="card-amt">rs.59</div>
+                        </div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div>
+                        <ion-icon name="trash" class="cart-remove"></ion-icon>
+                </div>
+                <div class="cart-box">
+                    <img src="images/d10.jpg" class="cart-img">
+                    <div class="detail-box">
+                        <div class="card-food-title">Aviyal Sambar</div>
+                        <div class="price-box">
+                            <div class="card-price">rs.80</div>
+                            <div class="card-amt">rs.80</div>
+                        </div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div>
+                        <ion-icon name="trash" class="cart-remove"></ion-icon>
+                </div>
+                <div class="cart-box">
+                    <img src="images/d1.jpg" class="cart-img">
+                    <div class="detail-box">
+                        <div class="card-food-title">Chappathi</div>
+                        <div class="price-box">
+                            <div class="card-price">rs.60</div>
+                            <div class="card-amt">rs.60</div>
+                        </div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div>
+                        <ion-icon name="trash" class="cart-remove"></ion-icon>
+                </div>
+            </div>
+            <div class="total">
+                <div class="tatal-title">Total</div>
+                <div class="tatal-price">RS.0</div>
+            </div>
+            <button class="btn-buy">placeorder</button>
+            <ion-icon name="close-outline" id="cart-close"></ion-icon>
+        </div>
+
+        
+        </div>
+
+
+    </header>
+    <div class="container">
+        <h2 class="title">Discover the Best Food</h2>
+        <div class="shop-content">
+            <div class="food-box">
+                <div class="pic">
+                    <img src="images/d1.jpg" class="food-img">
+                </div>
+                <h2 class="food-title">chappathi</h2>
+                <span class="food-price">Rs.60</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+
+            <div class="food-box">
+                <div class="pic">
+                    <img src="images/d10.jpg" class="food-img">
+                </div>
+                <h2 class="food-title">Aviyal sambar</h2>
+                <span class="food-price">Rs.80</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon> 
+            </div>
+
+
+            <div class="food-box">
+                <div class="pic">
+                    <img src="images/d3.jpg" class="food-img">
+                </div>
+                <h2 class="food-title">potato crisp</h2>
+                <span class="food-price">Rs.45</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic">
+                    <img src="images/d11.jpg" class="food-img">
+                </div>
+                <h2 class="food-title">KL sathya</h2>
+                <span class="food-price">Rs.59</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic">
+                    <img src="images/d5.jpg" class="food-img">
+                </div>
+                <h2 class="food-title">Bread cut</h2>
+                <span class="food-price">Rs.80</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic">
+                    <img src="images/d6.jpg" class="food-img">
+                </div>
+                <h2 class="food-title">carrot rice</h2>
+                <span class="food-price">Rs.99</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic">
+                    <img src="images/d7.jpg" class="food-img">
+                </div>
+                <h2 class="food-title">Egg chop</h2>
+                <span class="food-price">Rs.94</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+
+            <div class="food-box">
+                <div class="pic">
+                    <img src="images/d8.jpg" class="food-img">
+                </div>
+                <h2 class="food-title">chiken chop</h2>
+                <span class="food-price">Rs.88</span>
+                <ion-icon name="cart" class="add-cart"></ion-icon>
+            </div>
+        </div>
+    </div>
+   <script src="js/script.js/scriptfile.js" ></script>
+</body>
+</html>
